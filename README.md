@@ -1,6 +1,8 @@
 # RealtimeImageProcessing
 Binarization Algorithm of Image Processing using WebCamera.
 
+![image](https://github.com/laitaiyu/RealtimeImageProcessing/blob/master/RealtimeImageProcessing-AD.jpg)
+
 Visual C++ 2010
 同樣的，我們在撰寫視訊程式之前，可以先使用K-Lite Codec Pack Mega內所附的工具程式GraphStudioNext，加入視訊來源（Insert Video Source），並選擇視訊著色器（Insert Video Renderer），將輸出與輸入連接後，就會出現AVI Decompressor，但由於我們想要將每個畫面轉為RGB色彩空間，然後轉換為Bitmap點陣圖格式，以便利我們去分析或是處理數位影像，因此加入了Color Space Converter過濾器，以上就是利用Graph所自動建立的視訊處理流程，同樣的我們在程式裡也是透過這樣的方式建立視訊撥放流程，只是差別一個是有人機介面可以自由操作，一個是利用程式去撰寫。
 
